@@ -1,0 +1,19 @@
+- name:
+    host: 
+      - os: 
+          memSize: 4g
+          diskSize: 4g
+          cpu: 2c
+      - hosts: 
+          hostName: wallet-web-api-A1
+          ip: 10.0.0.100
+          sysVersion: centos
+    hostGroup: 
+      groupName: dev
+      hostIp: 10.0.0.100
+    user: 
+      name: chen
+      id: 1
+    userGroup: 
+      groupName: ops
+      userId: 1
